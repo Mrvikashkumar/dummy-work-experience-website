@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif
+}
+
+body{
+  background-color: #E4E4E4;
+}
+.left-side, .work-experience, .education{
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+  padding: 10px;
+}
+i{
+  color: #009688 !important;
+  padding-right: 10px;
+}
+
+.main{
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.left-side{
+  width: 35%;
+}
+.profile{
+  background: url('../img/profile-photo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+.profile p{
+  padding: 10px;
+  font-size: 2rem;
+}
+.address div{
+  padding: 10px;
+  font-size: 1.1rem;
+  color: #646867;
+}
+.address div:last-child{
+  padding-bottom: 20px;
+}
+.address div i{
+  padding-right: 10px;
+}
+.skill, .lang{
+  padding: 20px 10px;
+}
+.skill-head, .lang-head{
+  font-size: 1.3rem;
+  padding-bottom: 20px;
+}
+.item{
+  color: #646867;
+}
+.item > div{
+  width: 100%;
+  height: 20px;
+  background-color: #f1f1f1;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+.item > div .percentage{
+  height: 20px;
+  margin: 10px 0;
+  border-radius: 20px;
+  background-color: #009688;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photoshop .percentage{
+  width: 90%;
+}
+.photography .percentage{
+  width: 80%;
+}
+.illustrator .percentage{
+  width: 75%;
+}
+.media .percentage{
+  width: 50%;
+}
+.english .percentage{
+  width: 100%;
+}
+.spanish .percentage{
+  width: 50%;
+}
+.german .percentage{
+  width: 25%;
+}
+
+.right-side{
+  width: 65%;
+}
+.work-experience{
+  margin-bottom: 20px;
+  padding: 20px 30px;
+}
+.education{
+  padding: 20px 30px;
+}
+.right-side h1, h2, p{
+  color: #7a7777;
+  font-weight: 400;
+}
+.right-side-heading{
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+.right-side-heading i{
+  font-size: 2.5rem;
+  padding-right: 20px;
+}
+.right-div{
+  padding: 20px;
+}
+.date{
+  padding: 20px 0;
+  color: #009688;
+}
+.date span{
+  background-color: #009688;
+  color: #fff;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+footer{
+  background-color: #009688;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+footer p, .footer-links i{
+  color: #fff !important;
+}
+.footer-links{
+  padding: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .main{
+    flex-direction: column;
+  }
+  .left-side, .right-side{
+    width: 100%;
+  }
+}
